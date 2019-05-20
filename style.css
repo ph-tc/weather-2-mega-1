@@ -729,7 +729,7 @@ form {
 	-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 	background-color: transparent;
-	background-image: url(./arrow2.png);
+	background-image: url(arrow2-dark.png);
 	background-position: 95% center;
 	-webkit-background-size: 15px;
 	background-size: 15px;
@@ -809,7 +809,7 @@ form {
 	width: 25px;
 	height: 27px;
 	margin-left: 9px;
-	background-image: url('./arrow2.png');
+	background-image: url('arrow2-dark.png');
 	background-position: center;
 	-webkit-background-size: contain;
 	background-size: contain;
