@@ -755,6 +755,12 @@ form {
 }
 
 @media screen and (max-height: 380px) {
+	.month .inner {
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (max-height: 290px) {
 	.month {
 		display: none;
 	}
