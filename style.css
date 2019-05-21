@@ -714,6 +714,12 @@ form {
 
 @media screen and (max-height: 450px) {
 	.hours li {
+		height: 20px;
+	}
+}
+
+@media screen and (max-height: 350px) {
+	.hours li {
 		height: 15px;
 	}
 }
