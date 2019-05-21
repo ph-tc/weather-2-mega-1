@@ -702,7 +702,23 @@ form {
 	background-image: url('./cloudssun.png');
 }
 
-@media screen and (max-height: 570px) {
+@media screen and (max-height: 530px) {
+	.hours .inner {
+		padding-bottom: 20px;
+	}
+
+	.hours li {
+		height: 40px;
+	}
+}
+
+@media screen and (max-height: 450px) {
+	.hours li {
+		height: 20px;
+	}
+}
+
+@media screen and (max-height: 370px) {
 	.hours {
 		display: none;
 	}
@@ -748,19 +764,13 @@ form {
 	}
 }
 
-@media screen and (max-height: 570px) {
-	.month {
-		display: table-row;
-	}
-}
-
 @media screen and (max-height: 380px) {
 	.month .inner {
 		margin-bottom: 0;
 	}
 }
 
-@media screen and (max-height: 290px) {
+@media screen and (max-height: 340px) {
 	.month {
 		display: none;
 	}
