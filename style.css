@@ -714,7 +714,7 @@ form {
 
 @media screen and (max-height: 450px) {
 	.hours li {
-		height: 20px;
+		height: 15px;
 	}
 }
 
@@ -745,7 +745,6 @@ form {
 	font-size: 14px;
 	font-weight: bold;
 	color: #333;
-	text-align: center;
 	border: none;
 	-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
