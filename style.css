@@ -718,7 +718,7 @@ form {
 	}
 }
 
-@media screen and (max-height: 375px) {
+@media screen and (max-height: 370px) {
 	.hours {
 		display: none;
 	}
@@ -764,7 +764,7 @@ form {
 	}
 }
 
-@media screen and (max-height: 375px) {
+@media screen and (max-height: 370px) {
 	.month {
 		display: table-row;
 	}
