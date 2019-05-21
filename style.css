@@ -718,7 +718,7 @@ form {
 	}
 }
 
-@media screen and (max-height: 370px) {
+@media screen and (max-height: 375px) {
 	.hours {
 		display: none;
 	}
