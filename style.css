@@ -117,7 +117,7 @@ html {
 }
 
 body {
-	position: relative;
+	position: fixed;
 	display: table;
 	height: 100%;
 	width: 100%;
@@ -125,12 +125,6 @@ body {
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-}
-
-form {
-	display: table;
-	width: 100%;
-	height: 100%;
 	overflow: hidden;
 }
 
@@ -150,13 +144,14 @@ form {
 	width: 100%;
 	font-size: 0;
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: #015a84;
 	z-index: 10;
 }
 
 .offer .inner {
 	position: relative;
 	width: 100%;
+	padding: 2px;
 }
 
 .offer span {
@@ -305,13 +300,14 @@ form {
 	text-align: center;
 }
 
-.temperature .degrees button {
+.temperature .degrees a {
+	display: inline-block;
 	border: none;
 	background-color: transparent;
 	font-size: 0;
 }
 
-.temperature .degrees button .icon {
+.temperature .degrees a .icon {
 	width: 80px;
 	height: 80px;
 	margin: 0 auto 10px;
@@ -320,9 +316,10 @@ form {
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
+	filter: drop-shadow(0 4px 5px rgba(0, 0, 0, 0.4));
 }
 
-.temperature .degrees button p {
+.temperature .degrees a p {
 	font-family: 'Roboto', serif;
 	font-size: 26px;
 	font-weight: bold;
@@ -331,7 +328,7 @@ form {
 }
 
 @media screen and (max-height: 700px) {
-	.temperature .degrees button .icon {
+	.temperature .degrees a .icon {
 		display: inline-block;
 		width: 50px;
 		height: 50px;
@@ -340,7 +337,7 @@ form {
 		vertical-align: middle;
 	}
 
-	.temperature .degrees button p {
+	.temperature .degrees a p {
 		display: inline-block;
 		font-size: 20px;
 		vertical-align: middle;
@@ -392,6 +389,7 @@ form {
 	background-position: center;
 	background-repeat: no-repeat;
 	vertical-align: middle;
+	filter: drop-shadow(0 4px 5px rgba(0, 0, 0, 0.4));
 }
 
 /*DETAILS*/
@@ -844,6 +842,7 @@ form {
 	-webkit-background-size: contain;
 	background-size: contain;
 	background-repeat: no-repeat;
+	filter: drop-shadow(0 4px 5px rgba(0, 0, 0, 0.4));
 }
 
 .main .cancel {
@@ -860,7 +859,7 @@ form {
 	margin-top: 15px;
 	text-decoration: none;
 	text-transform: uppercase;
-	background-color: rgba(136, 136, 136, 0.5);
+	background-color: rgba(100, 100, 100, 0.5);
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 }
